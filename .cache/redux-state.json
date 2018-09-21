@@ -453,7 +453,7 @@
       "resolve": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "b4032b5f70d0d79d8359e755488792dd",
+      "version": "045d622de65b69be8cc5120d87b6f930",
       "pluginOptions": {
         "plugins": []
       },
@@ -513,7 +513,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "669d7a75a91ed5ab032027e23854b40d",
+        "contentDigest": "7894659d9e17327391fc0bbce53e7a31",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -621,12 +621,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-20T23:07:17.258Z",
+      "buildTime": "2018-09-20T23:33:01.819Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3648064b60163cd8925fadc56d7cc568",
+        "contentDigest": "c3b3bb3ff076cf6071050fcd356e2bfe",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -647,6 +647,26 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "0708052e2321a9d4c2844993b7ee4e55",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "36cdf71d617da944d58a6475020b9bc2",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -714,7 +734,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "6e42f743f544ecd996a1fd963ea6ae62"
+    "PLUGINS_HASH": "aefe6edfd3a973d52518949adc601226"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -730,7 +750,8 @@
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-layout-js": 755544856,
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/.cache/dev-404-page.js": {
@@ -740,6 +761,10 @@
     "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/404.js"
+    },
+    "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/about.js": {
+      "query": "",
+      "componentPath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/about.js"
     },
     "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/index.js": {
       "query": "",
