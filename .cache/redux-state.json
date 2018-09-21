@@ -768,11 +768,13 @@
       "resolve": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "a933a105d9c7a1dfc9303b86920ebf5d",
+      "version": "4e60b97dbd2918c44f450a56547f4fab",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "createPages"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker",
@@ -840,7 +842,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "fc2910bc20f3679b044359e66e23d9e6",
+        "contentDigest": "936f04cab97c287e3f4112ac94f85ce6",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -948,12 +950,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-21T17:35:30.738Z",
+      "buildTime": "2018-09-21T21:03:51.820Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "60b067938e4a0fab788aaeb144f03ea1",
+        "contentDigest": "239dfe1632f7af55655b508d7cdcaae9",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -963,7 +965,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d7c09c11bce58bdea50a00aa47b34092",
+        "contentDigest": "fe67254ccabd858c85c0aaa74b1923d9",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -972,11 +974,11 @@
       "absolutePath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages",
       "relativePath": "",
       "extension": "",
-      "size": 256,
-      "prettySize": "256 B",
-      "modifiedTime": "2018-09-21T17:28:47.574Z",
-      "accessTime": "2018-09-21T17:35:34.204Z",
-      "changeTime": "2018-09-21T17:28:47.574Z",
+      "size": 288,
+      "prettySize": "288 B",
+      "modifiedTime": "2018-09-21T17:41:35.502Z",
+      "accessTime": "2018-09-21T21:03:53.897Z",
+      "changeTime": "2018-09-21T17:41:35.502Z",
       "birthTime": "2018-09-20T22:32:58.000Z",
       "root": "/",
       "dir": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src",
@@ -986,20 +988,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 8,
+      "nlink": 9,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 13787000,
       "blocks": 0,
-      "atimeMs": 1537551334204.1643,
-      "mtimeMs": 1537550927574.1077,
-      "ctimeMs": 1537550927574.1077,
+      "atimeMs": 1537563833897.3293,
+      "mtimeMs": 1537551695502.2004,
+      "ctimeMs": 1537551695502.2004,
       "birthtimeMs": 1537482778000,
-      "atime": "2018-09-21T17:35:34.204Z",
-      "mtime": "2018-09-21T17:28:47.574Z",
-      "ctime": "2018-09-21T17:28:47.574Z",
+      "atime": "2018-09-21T21:03:53.897Z",
+      "mtime": "2018-09-21T17:41:35.502Z",
+      "ctime": "2018-09-21T17:41:35.502Z",
       "birthtime": "2018-09-20T22:32:58.000Z"
     },
     "8ecbdc7e-9821-515d-9393-34f703c2718e": {
@@ -1007,7 +1009,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e79a33359e27a78f988c1f817cf9183f",
+        "contentDigest": "f828e1a9096183c888ceb84fbbce94d3",
         "type": "Directory",
         "description": "Directory \"src/pages/2018-09-21-post-one\"",
         "owner": "gatsby-source-filesystem"
@@ -1019,7 +1021,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-09-21T17:25:19.984Z",
-      "accessTime": "2018-09-21T17:35:34.207Z",
+      "accessTime": "2018-09-21T21:03:53.900Z",
       "changeTime": "2018-09-21T17:26:30.742Z",
       "birthTime": "2018-09-21T17:25:09.476Z",
       "root": "/",
@@ -1037,11 +1039,11 @@
       "blksize": 4194304,
       "ino": 13884985,
       "blocks": 0,
-      "atimeMs": 1537551334206.8855,
+      "atimeMs": 1537563833900.4897,
       "mtimeMs": 1537550719983.9685,
       "ctimeMs": 1537550790742.0974,
       "birthtimeMs": 1537550709476.441,
-      "atime": "2018-09-21T17:35:34.207Z",
+      "atime": "2018-09-21T21:03:53.900Z",
       "mtime": "2018-09-21T17:25:19.984Z",
       "ctime": "2018-09-21T17:26:30.742Z",
       "birthtime": "2018-09-21T17:25:09.476Z"
@@ -1051,7 +1053,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "71e6ff7ca6e0c243eda42a7d019b9d0c",
+        "contentDigest": "480d38f96c7de5472d81f8d121882afb",
         "type": "Directory",
         "description": "Directory \"src/pages/2018-09-21-post-two\"",
         "owner": "gatsby-source-filesystem"
@@ -1063,7 +1065,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-09-21T17:28:54.278Z",
-      "accessTime": "2018-09-21T17:35:34.207Z",
+      "accessTime": "2018-09-21T21:03:53.900Z",
       "changeTime": "2018-09-21T17:28:54.278Z",
       "birthTime": "2018-09-21T17:28:47.574Z",
       "root": "/",
@@ -1081,11 +1083,11 @@
       "blksize": 4194304,
       "ino": 13885097,
       "blocks": 0,
-      "atimeMs": 1537551334206.9116,
+      "atimeMs": 1537563833900.4622,
       "mtimeMs": 1537550934277.7886,
       "ctimeMs": 1537550934277.7886,
       "birthtimeMs": 1537550927574.0935,
-      "atime": "2018-09-21T17:35:34.207Z",
+      "atime": "2018-09-21T21:03:53.900Z",
       "mtime": "2018-09-21T17:28:54.278Z",
       "ctime": "2018-09-21T17:28:54.278Z",
       "birthtime": "2018-09-21T17:28:47.574Z"
@@ -1108,7 +1110,7 @@
       "size": 246,
       "prettySize": "246 B",
       "modifiedTime": "2018-09-20T22:32:58.559Z",
-      "accessTime": "2018-09-21T17:27:58.334Z",
+      "accessTime": "2018-09-21T21:03:44.422Z",
       "changeTime": "2018-09-20T22:32:58.882Z",
       "birthTime": "2018-09-20T22:32:58.559Z",
       "root": "/",
@@ -1126,11 +1128,11 @@
       "blksize": 4194304,
       "ino": 13787001,
       "blocks": 8,
-      "atimeMs": 1537550878334.2932,
+      "atimeMs": 1537563824422.357,
       "mtimeMs": 1537482778558.6992,
       "ctimeMs": 1537482778881.6792,
       "birthtimeMs": 1537482778558.639,
-      "atime": "2018-09-21T17:27:58.334Z",
+      "atime": "2018-09-21T21:03:44.422Z",
       "mtime": "2018-09-20T22:32:58.559Z",
       "ctime": "2018-09-20T22:32:58.882Z",
       "birthtime": "2018-09-20T22:32:58.559Z"
@@ -1153,7 +1155,7 @@
       "size": 598,
       "prettySize": "598 B",
       "modifiedTime": "2018-09-20T23:19:54.406Z",
-      "accessTime": "2018-09-21T17:22:11.514Z",
+      "accessTime": "2018-09-21T21:03:44.422Z",
       "changeTime": "2018-09-20T23:19:54.406Z",
       "birthTime": "2018-09-20T23:11:15.573Z",
       "root": "/",
@@ -1171,14 +1173,59 @@
       "blksize": 4194304,
       "ino": 13829866,
       "blocks": 8,
-      "atimeMs": 1537550531513.6929,
+      "atimeMs": 1537563824422.3662,
       "mtimeMs": 1537485594406.1804,
       "ctimeMs": 1537485594406.1804,
       "birthtimeMs": 1537485075572.757,
-      "atime": "2018-09-21T17:22:11.514Z",
+      "atime": "2018-09-21T21:03:44.422Z",
       "mtime": "2018-09-20T23:19:54.406Z",
       "ctime": "2018-09-20T23:19:54.406Z",
       "birthtime": "2018-09-20T23:11:15.573Z"
+    },
+    "0b0d9cc1-cf93-57c9-8e42-b3597fc383cc": {
+      "id": "0b0d9cc1-cf93-57c9-8e42-b3597fc383cc",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7a02b78cf83ce3d036d9bc6bcf72ed69",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/blog.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/blog.js",
+      "relativePath": "blog.js",
+      "extension": "js",
+      "size": 894,
+      "prettySize": "894 B",
+      "modifiedTime": "2018-09-21T17:52:03.261Z",
+      "accessTime": "2018-09-21T21:03:44.422Z",
+      "changeTime": "2018-09-21T17:52:03.261Z",
+      "birthTime": "2018-09-21T17:41:35.502Z",
+      "root": "/",
+      "dir": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages",
+      "base": "blog.js",
+      "ext": ".js",
+      "name": "blog",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 13889549,
+      "blocks": 8,
+      "atimeMs": 1537563824422.3762,
+      "mtimeMs": 1537552323260.6592,
+      "ctimeMs": 1537552323260.6592,
+      "birthtimeMs": 1537551695502.1821,
+      "atime": "2018-09-21T21:03:44.422Z",
+      "mtime": "2018-09-21T17:52:03.261Z",
+      "ctime": "2018-09-21T17:52:03.261Z",
+      "birthtime": "2018-09-21T17:41:35.502Z"
     },
     "b1930ac2-d150-598e-b7cc-e5a10b647f4a": {
       "id": "b1930ac2-d150-598e-b7cc-e5a10b647f4a",
@@ -1198,7 +1245,7 @@
       "size": 2022,
       "prettySize": "2.02 kB",
       "modifiedTime": "2018-09-20T23:02:38.271Z",
-      "accessTime": "2018-09-21T17:22:07.780Z",
+      "accessTime": "2018-09-21T21:03:44.422Z",
       "changeTime": "2018-09-20T23:02:38.271Z",
       "birthTime": "2018-09-20T22:32:58.559Z",
       "root": "/",
@@ -1216,11 +1263,11 @@
       "blksize": 4194304,
       "ino": 13787002,
       "blocks": 8,
-      "atimeMs": 1537550527779.8184,
+      "atimeMs": 1537563824422.3865,
       "mtimeMs": 1537484558270.735,
       "ctimeMs": 1537484558270.735,
       "birthtimeMs": 1537482778558.8599,
-      "atime": "2018-09-21T17:22:07.780Z",
+      "atime": "2018-09-21T21:03:44.422Z",
       "mtime": "2018-09-20T23:02:38.271Z",
       "ctime": "2018-09-20T23:02:38.271Z",
       "birthtime": "2018-09-20T22:32:58.559Z"
@@ -1243,7 +1290,7 @@
       "size": 293,
       "prettySize": "293 B",
       "modifiedTime": "2018-09-20T22:32:58.559Z",
-      "accessTime": "2018-09-21T16:51:45.317Z",
+      "accessTime": "2018-09-21T21:03:44.422Z",
       "changeTime": "2018-09-20T22:32:58.890Z",
       "birthTime": "2018-09-20T22:32:58.559Z",
       "root": "/",
@@ -1261,11 +1308,11 @@
       "blksize": 4194304,
       "ino": 13787003,
       "blocks": 8,
-      "atimeMs": 1537548705316.809,
+      "atimeMs": 1537563824422.3955,
       "mtimeMs": 1537482778559.1003,
       "ctimeMs": 1537482778889.7183,
       "birthtimeMs": 1537482778559.045,
-      "atime": "2018-09-21T16:51:45.317Z",
+      "atime": "2018-09-21T21:03:44.422Z",
       "mtime": "2018-09-20T22:32:58.559Z",
       "ctime": "2018-09-20T22:32:58.890Z",
       "birthtime": "2018-09-20T22:32:58.559Z"
@@ -1290,7 +1337,7 @@
       "size": 131,
       "prettySize": "131 B",
       "modifiedTime": "2018-09-21T17:51:35.912Z",
-      "accessTime": "2018-09-21T17:51:35.972Z",
+      "accessTime": "2018-09-21T21:03:44.422Z",
       "changeTime": "2018-09-21T17:51:35.912Z",
       "birthTime": "2018-09-21T17:28:54.278Z",
       "root": "/",
@@ -1308,11 +1355,11 @@
       "blksize": 4194304,
       "ino": 13885101,
       "blocks": 8,
-      "atimeMs": 1537552295971.9788,
+      "atimeMs": 1537563824422.3472,
       "mtimeMs": 1537552295911.529,
       "ctimeMs": 1537552295911.529,
       "birthtimeMs": 1537550934277.7793,
-      "atime": "2018-09-21T17:51:35.972Z",
+      "atime": "2018-09-21T21:03:44.422Z",
       "mtime": "2018-09-21T17:51:35.912Z",
       "ctime": "2018-09-21T17:51:35.912Z",
       "birthtime": "2018-09-21T17:28:54.278Z"
@@ -1337,7 +1384,7 @@
       "size": 163,
       "prettySize": "163 B",
       "modifiedTime": "2018-09-21T17:51:32.167Z",
-      "accessTime": "2018-09-21T17:51:32.733Z",
+      "accessTime": "2018-09-21T21:03:44.422Z",
       "changeTime": "2018-09-21T17:51:32.167Z",
       "birthTime": "2018-09-21T17:25:19.984Z",
       "root": "/",
@@ -1355,14 +1402,96 @@
       "blksize": 4194304,
       "ino": 13884992,
       "blocks": 8,
-      "atimeMs": 1537552292733.2083,
+      "atimeMs": 1537563824422.3264,
       "mtimeMs": 1537552292166.737,
       "ctimeMs": 1537552292166.737,
       "birthtimeMs": 1537550719983.9578,
-      "atime": "2018-09-21T17:51:32.733Z",
+      "atime": "2018-09-21T21:03:44.422Z",
       "mtime": "2018-09-21T17:51:32.167Z",
       "ctime": "2018-09-21T17:51:32.167Z",
       "birthtime": "2018-09-21T17:25:19.984Z"
+    },
+    "9548798c-f046-5c86-9db3-e0e70f1bddcb": {
+      "id": "9548798c-f046-5c86-9db3-e0e70f1bddcb",
+      "children": [],
+      "parent": "238cc71e-0b15-5a30-a2f0-000dd2ae89a9",
+      "internal": {
+        "content": "\nMarkdown, Plugins, and awesomeness\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "8707af2bf261aa35b86b3fff82b81017",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Front Matter x 2",
+        "path": "/post-two",
+        "date": "2018-09-21",
+        "author": "Gangsta Ganst",
+        "_PARENT": "238cc71e-0b15-5a30-a2f0-000dd2ae89a9"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nMarkdown, Plugins, and awesomeness\n",
+      "fileAbsolutePath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/2018-09-21-post-two/index.md"
+    },
+    "90d93f06-1e3d-5904-9b8d-64e08cbc268f": {
+      "id": "90d93f06-1e3d-5904-9b8d-64e08cbc268f",
+      "children": [],
+      "parent": "54cb00dd-06ac-5948-9c4c-0e06f4496cdc",
+      "internal": {
+        "content": "\nFront matter blog post with Gatsby JS -markdown\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "0faef4bb30e4e459871ef0b9dbdc3126",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Gatsby is the coolest, front matter",
+        "path": "/post-one",
+        "date": "2018-09-21",
+        "author": "Cole Pedersen",
+        "_PARENT": "54cb00dd-06ac-5948-9c4c-0e06f4496cdc"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nFront matter blog post with Gatsby JS -markdown\n",
+      "fileAbsolutePath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/2018-09-21-post-one/index.md"
+    },
+    "SitePage /post-two": {
+      "jsonName": "post-two-2a5",
+      "internalComponentName": "ComponentPostTwo",
+      "path": "/post-two",
+      "component": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/templates/blog-template.js",
+      "componentChunkName": "component---src-templates-blog-template-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/templates/blog-template.js",
+      "id": "SitePage /post-two",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e05e9d2bd49f3d74b2926519169738e7",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /post-one": {
+      "jsonName": "post-one-18e",
+      "internalComponentName": "ComponentPostOne",
+      "path": "/post-one",
+      "component": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/templates/blog-template.js",
+      "componentChunkName": "component---src-templates-blog-template-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/templates/blog-template.js",
+      "id": "SitePage /post-one",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "96c96e34202dcee89c08a10d663284cd",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -1400,6 +1529,26 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "36cdf71d617da944d58a6475020b9bc2",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/": {
+      "jsonName": "blog-f7a",
+      "internalComponentName": "ComponentBlog",
+      "path": "/blog/",
+      "component": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/blog.js",
+      "componentChunkName": "component---src-pages-blog-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/blog.js",
+      "id": "SitePage /blog/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "eff8065e03e52357cb53b000b0611fd8",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1463,123 +1612,22 @@
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
-    },
-    "SitePage /blog/": {
-      "jsonName": "blog-f7a",
-      "internalComponentName": "ComponentBlog",
-      "path": "/blog/",
-      "component": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/blog.js",
-      "componentChunkName": "component---src-pages-blog-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/blog.js",
-      "id": "SitePage /blog/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "eff8065e03e52357cb53b000b0611fd8",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "0b0d9cc1-cf93-57c9-8e42-b3597fc383cc": {
-      "id": "0b0d9cc1-cf93-57c9-8e42-b3597fc383cc",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "7a02b78cf83ce3d036d9bc6bcf72ed69",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/pages/blog.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/blog.js",
-      "relativePath": "blog.js",
-      "extension": "js",
-      "size": 894,
-      "prettySize": "894 B",
-      "modifiedTime": "2018-09-21T17:52:03.261Z",
-      "accessTime": "2018-09-21T17:52:03.260Z",
-      "changeTime": "2018-09-21T17:52:03.261Z",
-      "birthTime": "2018-09-21T17:41:35.502Z",
-      "root": "/",
-      "dir": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages",
-      "base": "blog.js",
-      "ext": ".js",
-      "name": "blog",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 13889549,
-      "blocks": 8,
-      "atimeMs": 1537552323260.1782,
-      "mtimeMs": 1537552323260.6592,
-      "ctimeMs": 1537552323260.6592,
-      "birthtimeMs": 1537551695502.1821,
-      "atime": "2018-09-21T17:52:03.260Z",
-      "mtime": "2018-09-21T17:52:03.261Z",
-      "ctime": "2018-09-21T17:52:03.261Z",
-      "birthtime": "2018-09-21T17:41:35.502Z"
-    },
-    "90d93f06-1e3d-5904-9b8d-64e08cbc268f": {
-      "id": "90d93f06-1e3d-5904-9b8d-64e08cbc268f",
-      "children": [],
-      "parent": "54cb00dd-06ac-5948-9c4c-0e06f4496cdc",
-      "internal": {
-        "content": "\nFront matter blog post with Gatsby JS -markdown\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "0faef4bb30e4e459871ef0b9dbdc3126",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Gatsby is the coolest, front matter",
-        "path": "/post-one",
-        "date": "2018-09-21",
-        "author": "Cole Pedersen",
-        "_PARENT": "54cb00dd-06ac-5948-9c4c-0e06f4496cdc"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nFront matter blog post with Gatsby JS -markdown\n",
-      "fileAbsolutePath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/2018-09-21-post-one/index.md"
-    },
-    "9548798c-f046-5c86-9db3-e0e70f1bddcb": {
-      "id": "9548798c-f046-5c86-9db3-e0e70f1bddcb",
-      "children": [],
-      "parent": "238cc71e-0b15-5a30-a2f0-000dd2ae89a9",
-      "internal": {
-        "content": "\nMarkdown, Plugins, and awesomeness\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "8707af2bf261aa35b86b3fff82b81017",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Front Matter x 2",
-        "path": "/post-two",
-        "date": "2018-09-21",
-        "author": "Gangsta Ganst",
-        "_PARENT": "238cc71e-0b15-5a30-a2f0-000dd2ae89a9"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nMarkdown, Plugins, and awesomeness\n",
-      "fileAbsolutePath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/2018-09-21-post-two/index.md"
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "19453e011f5a51a47c36e9644e25b5a3"
+    "PLUGINS_HASH": "a242c53e8e4ed08b453facaf0653a6fd"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "sq--src-components-layout-js"
+      ],
+      "9548798c-f046-5c86-9db3-e0e70f1bddcb": [
+        "/post-two"
+      ],
+      "90d93f06-1e3d-5904-9b8d-64e08cbc268f": [
+        "/post-one"
       ]
     },
     "connections": {
@@ -1589,16 +1637,22 @@
     }
   },
   "jsonDataPaths": {
+    "sq--src-components-layout-js": 755544856,
+    "blog-f7a": "970/path---blog-f-7-a-05d-Y5fIYQkfGSYgosEJORIbXdEaYtY",
+    "post-two-2a5": "315/path---post-two-2-a-5-1bb-dAg8rc6TvR3cvQ132htqOK0o58",
+    "post-one-18e": "265/path---post-one-18-e-4c6-6axHDBADMgYVKbVCakGLi2Y9XM",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-layout-js": 755544856,
-    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
-    "blog-f7a": "891/path---blog-f-7-a-05d-ZGG1HDK0mG9vG09lwKjnKcvRmM"
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
+    "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/templates/blog-template.js": {
+      "query": "query BlogPostsByPath(\n  $path: String!\n) {\n  markdownRemark(frontmatter: {path: {eq: $path}}) {\n    html\n    frontmatter {\n      path\n      title\n      author\n      date\n    }\n  }\n}\n",
+      "componentPath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/templates/blog-template.js"
+    },
     "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/.cache/dev-404-page.js": {
       "query": "",
       "componentPath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/.cache/dev-404-page.js"
@@ -1611,6 +1665,10 @@
       "query": "",
       "componentPath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/about.js"
     },
+    "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/blog.js": {
+      "query": "query BlogIndexQuery {\n  allMarkdownRemark {\n    edges {\n      node {\n        id\n        frontmatter {\n          path\n          title\n          date\n          author\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/blog.js"
+    },
     "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/index.js"
@@ -1618,10 +1676,6 @@
     "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/page-2.js": {
       "query": "",
       "componentPath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/page-2.js"
-    },
-    "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/blog.js": {
-      "query": "query BlogIndexQuery {\n  allMarkdownRemark {\n    edges {\n      node {\n        id\n        frontmatter {\n          path\n          title\n          date\n          author\n        }\n      }\n    }\n  }\n}\n",
-      "componentPath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/blog.js"
     }
   },
   "staticQueryComponents": {

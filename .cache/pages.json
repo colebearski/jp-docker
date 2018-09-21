@@ -33,5 +33,15 @@
         "componentChunkName": "component---src-pages-page-2-js",
         "jsonName": "page-2-fbc",
         "path": "/page-2/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-template-js",
+        "jsonName": "post-one-18e",
+        "path": "/post-one"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-template-js",
+        "jsonName": "post-two-2a5",
+        "path": "/post-two"
     }
 ]
