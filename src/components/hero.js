@@ -9,11 +9,11 @@ const Hero = () => {
           <ol className="carousel-indicators">
             <li
               data-target="#ddCarousel"
-              data-slide-tp="0"
+              data-slide-to="0"
               className="active"
             />
-            <li data-target="#ddCarousel" data-slide-tp="1" className="" />
-            <li data-target="#ddCarousel" data-slide-tp="2" className="" />
+            <li data-target="#ddCarousel" data-slide-to="1" className="" />
+            <li data-target="#ddCarousel" data-slide-to="2" className="" />
           </ol>
 
           {/* Item One */}
@@ -45,7 +45,7 @@ const Hero = () => {
                     Eos a fugit omnis eius id quaerat eveniet reprehenderit nisi
                     facere provident?
                   </p>
-                  <Link to="/" className="btn btn-danger btn-lg">
+                  <Link to="/" className="btn btn-primary btn-lg">
                     Learn More
                   </Link>
                 </div>
@@ -62,7 +62,7 @@ const Hero = () => {
                     Eos a fugit omnis eius id quaerat eveniet reprehenderit nisi
                     facere provident?
                   </p>
-                  <Link to="/" className="btn btn-danger btn-lg">
+                  <Link to="/" className="btn btn-success btn-lg">
                     Apply Here
                   </Link>
                 </div>
@@ -70,21 +70,21 @@ const Hero = () => {
             </div>
           </div>
 
-          <Link
-            to="#ddCarousel"
+          <a
+            href="#ddCarousel"
             data-slide="prev"
             className="carousel-control-prev"
           >
             <span className="carousel-control-prev-icon" />
-          </Link>
+          </a>
 
-          <Link
-            to="#ddCarousel"
+          <a
+            href="#ddCarousel"
             data-slide="next"
             className="carousel-control-next"
           >
             <span className="carousel-control-next-icon" />
-          </Link>
+          </a>
         </div>
       </section>
     </div>

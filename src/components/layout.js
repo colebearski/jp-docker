@@ -2,12 +2,16 @@ import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap.js";
 
+// COMPONENTS
 // import Header from "./header";
 // import Menu from "./menu";
 import Navi from "./navi";
 import Hero from "./hero";
 
+// STYLES
 import "./style.css";
 import "./layout.css";
 

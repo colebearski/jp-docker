@@ -789,6 +789,10 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "bootstrap",
+            "version": "^4.1.3"
+          },
+          {
             "name": "gatsby",
             "version": "^2.0.0"
           },
@@ -815,6 +819,14 @@
           {
             "name": "gatsby-transformer-remark",
             "version": "^2.1.3"
+          },
+          {
+            "name": "jquery",
+            "version": "^3.3.1"
+          },
+          {
+            "name": "popper.js",
+            "version": "^1.14.4"
           },
           {
             "name": "react",
@@ -950,12 +962,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-22T17:02:14.220Z",
+      "buildTime": "2018-09-22T17:38:31.226Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "86f43c5a5a70cc9174d0232e92a92e2e",
+        "contentDigest": "7b1199daea06813ed9c9444c3dc16993",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -965,7 +977,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "baefded3455be19ec09269cdabf46d96",
+        "contentDigest": "cad797ce04b060514803db5957ab4f96",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -977,7 +989,7 @@
       "size": 288,
       "prettySize": "288 B",
       "modifiedTime": "2018-09-22T14:39:29.000Z",
-      "accessTime": "2018-09-22T17:02:16.835Z",
+      "accessTime": "2018-09-22T17:38:33.265Z",
       "changeTime": "2018-09-22T14:39:29.102Z",
       "birthTime": "2018-09-20T22:32:58.000Z",
       "root": "/",
@@ -995,11 +1007,11 @@
       "blksize": 4194304,
       "ino": 13787000,
       "blocks": 0,
-      "atimeMs": 1537635736835.336,
+      "atimeMs": 1537637913265.4863,
       "mtimeMs": 1537627169000,
       "ctimeMs": 1537627169101.5369,
       "birthtimeMs": 1537482778000,
-      "atime": "2018-09-22T17:02:16.835Z",
+      "atime": "2018-09-22T17:38:33.265Z",
       "mtime": "2018-09-22T14:39:29.000Z",
       "ctime": "2018-09-22T14:39:29.102Z",
       "birthtime": "2018-09-20T22:32:58.000Z"
@@ -1009,7 +1021,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "acecadfadd216ce5a05711fd24bc745f",
+        "contentDigest": "488290bf691b74a13280182319f3830f",
         "type": "Directory",
         "description": "Directory \"src/pages/2018-09-21-post-one\"",
         "owner": "gatsby-source-filesystem"
@@ -1021,7 +1033,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-09-22T14:37:42.000Z",
-      "accessTime": "2018-09-22T17:02:16.839Z",
+      "accessTime": "2018-09-22T17:38:33.269Z",
       "changeTime": "2018-09-22T14:37:42.860Z",
       "birthTime": "2018-09-21T17:25:09.000Z",
       "root": "/",
@@ -1039,11 +1051,11 @@
       "blksize": 4194304,
       "ino": 13884985,
       "blocks": 0,
-      "atimeMs": 1537635736838.7969,
+      "atimeMs": 1537637913269.4297,
       "mtimeMs": 1537627062000,
       "ctimeMs": 1537627062860.0103,
       "birthtimeMs": 1537550709000,
-      "atime": "2018-09-22T17:02:16.839Z",
+      "atime": "2018-09-22T17:38:33.269Z",
       "mtime": "2018-09-22T14:37:42.000Z",
       "ctime": "2018-09-22T14:37:42.860Z",
       "birthtime": "2018-09-21T17:25:09.000Z"
@@ -1053,7 +1065,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "90cd483644e0ed64c699c77c7860be2c",
+        "contentDigest": "a57a0e17473235d39be84772b6d12be7",
         "type": "Directory",
         "description": "Directory \"src/pages/2018-09-21-post-two\"",
         "owner": "gatsby-source-filesystem"
@@ -1065,7 +1077,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-09-22T14:37:42.000Z",
-      "accessTime": "2018-09-22T17:02:16.839Z",
+      "accessTime": "2018-09-22T17:38:33.269Z",
       "changeTime": "2018-09-22T14:37:42.863Z",
       "birthTime": "2018-09-21T17:28:47.000Z",
       "root": "/",
@@ -1083,11 +1095,11 @@
       "blksize": 4194304,
       "ino": 13885097,
       "blocks": 0,
-      "atimeMs": 1537635736839.1118,
+      "atimeMs": 1537637913269.304,
       "mtimeMs": 1537627062000,
       "ctimeMs": 1537627062863.017,
       "birthtimeMs": 1537550927000,
-      "atime": "2018-09-22T17:02:16.839Z",
+      "atime": "2018-09-22T17:38:33.269Z",
       "mtime": "2018-09-22T14:37:42.000Z",
       "ctime": "2018-09-22T14:37:42.863Z",
       "birthtime": "2018-09-21T17:28:47.000Z"
@@ -1110,7 +1122,7 @@
       "size": 246,
       "prettySize": "246 B",
       "modifiedTime": "2018-09-20T22:32:58.559Z",
-      "accessTime": "2018-09-21T21:03:44.422Z",
+      "accessTime": "2018-09-22T17:19:32.151Z",
       "changeTime": "2018-09-20T22:32:58.882Z",
       "birthTime": "2018-09-20T22:32:58.559Z",
       "root": "/",
@@ -1128,11 +1140,11 @@
       "blksize": 4194304,
       "ino": 13787001,
       "blocks": 8,
-      "atimeMs": 1537563824422.357,
+      "atimeMs": 1537636772150.7375,
       "mtimeMs": 1537482778558.6992,
       "ctimeMs": 1537482778881.6792,
       "birthtimeMs": 1537482778558.639,
-      "atime": "2018-09-21T21:03:44.422Z",
+      "atime": "2018-09-22T17:19:32.151Z",
       "mtime": "2018-09-20T22:32:58.559Z",
       "ctime": "2018-09-20T22:32:58.882Z",
       "birthtime": "2018-09-20T22:32:58.559Z"
@@ -1155,7 +1167,7 @@
       "size": 598,
       "prettySize": "598 B",
       "modifiedTime": "2018-09-20T23:19:54.406Z",
-      "accessTime": "2018-09-21T21:03:44.422Z",
+      "accessTime": "2018-09-22T17:19:32.151Z",
       "changeTime": "2018-09-20T23:19:54.406Z",
       "birthTime": "2018-09-20T23:11:15.573Z",
       "root": "/",
@@ -1173,11 +1185,11 @@
       "blksize": 4194304,
       "ino": 13829866,
       "blocks": 8,
-      "atimeMs": 1537563824422.3662,
+      "atimeMs": 1537636772150.7515,
       "mtimeMs": 1537485594406.1804,
       "ctimeMs": 1537485594406.1804,
       "birthtimeMs": 1537485075572.757,
-      "atime": "2018-09-21T21:03:44.422Z",
+      "atime": "2018-09-22T17:19:32.151Z",
       "mtime": "2018-09-20T23:19:54.406Z",
       "ctime": "2018-09-20T23:19:54.406Z",
       "birthtime": "2018-09-20T23:11:15.573Z"
@@ -1200,7 +1212,7 @@
       "size": 894,
       "prettySize": "894 B",
       "modifiedTime": "2018-09-21T17:52:03.261Z",
-      "accessTime": "2018-09-21T21:03:44.422Z",
+      "accessTime": "2018-09-22T17:19:32.151Z",
       "changeTime": "2018-09-21T17:52:03.261Z",
       "birthTime": "2018-09-21T17:41:35.502Z",
       "root": "/",
@@ -1218,11 +1230,11 @@
       "blksize": 4194304,
       "ino": 13889549,
       "blocks": 8,
-      "atimeMs": 1537563824422.3762,
+      "atimeMs": 1537636772150.762,
       "mtimeMs": 1537552323260.6592,
       "ctimeMs": 1537552323260.6592,
       "birthtimeMs": 1537551695502.1821,
-      "atime": "2018-09-21T21:03:44.422Z",
+      "atime": "2018-09-22T17:19:32.151Z",
       "mtime": "2018-09-21T17:52:03.261Z",
       "ctime": "2018-09-21T17:52:03.261Z",
       "birthtime": "2018-09-21T17:41:35.502Z"
@@ -1245,7 +1257,7 @@
       "size": 2022,
       "prettySize": "2.02 kB",
       "modifiedTime": "2018-09-20T23:02:38.271Z",
-      "accessTime": "2018-09-21T21:03:44.422Z",
+      "accessTime": "2018-09-22T17:19:32.151Z",
       "changeTime": "2018-09-20T23:02:38.271Z",
       "birthTime": "2018-09-20T22:32:58.559Z",
       "root": "/",
@@ -1263,11 +1275,11 @@
       "blksize": 4194304,
       "ino": 13787002,
       "blocks": 8,
-      "atimeMs": 1537563824422.3865,
+      "atimeMs": 1537636772150.7585,
       "mtimeMs": 1537484558270.735,
       "ctimeMs": 1537484558270.735,
       "birthtimeMs": 1537482778558.8599,
-      "atime": "2018-09-21T21:03:44.422Z",
+      "atime": "2018-09-22T17:19:32.151Z",
       "mtime": "2018-09-20T23:02:38.271Z",
       "ctime": "2018-09-20T23:02:38.271Z",
       "birthtime": "2018-09-20T22:32:58.559Z"
@@ -1290,7 +1302,7 @@
       "size": 293,
       "prettySize": "293 B",
       "modifiedTime": "2018-09-20T22:32:58.559Z",
-      "accessTime": "2018-09-21T21:03:44.422Z",
+      "accessTime": "2018-09-22T17:19:32.151Z",
       "changeTime": "2018-09-20T22:32:58.890Z",
       "birthTime": "2018-09-20T22:32:58.559Z",
       "root": "/",
@@ -1308,61 +1320,14 @@
       "blksize": 4194304,
       "ino": 13787003,
       "blocks": 8,
-      "atimeMs": 1537563824422.3955,
+      "atimeMs": 1537636772150.7747,
       "mtimeMs": 1537482778559.1003,
       "ctimeMs": 1537482778889.7183,
       "birthtimeMs": 1537482778559.045,
-      "atime": "2018-09-21T21:03:44.422Z",
+      "atime": "2018-09-22T17:19:32.151Z",
       "mtime": "2018-09-20T22:32:58.559Z",
       "ctime": "2018-09-20T22:32:58.890Z",
       "birthtime": "2018-09-20T22:32:58.559Z"
-    },
-    "238cc71e-0b15-5a30-a2f0-000dd2ae89a9": {
-      "id": "238cc71e-0b15-5a30-a2f0-000dd2ae89a9",
-      "children": [
-        "9548798c-f046-5c86-9db3-e0e70f1bddcb"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "1c6763f6e3912302a51f537e557cffc7",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/pages/2018-09-21-post-two/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/2018-09-21-post-two/index.md",
-      "relativePath": "2018-09-21-post-two/index.md",
-      "extension": "md",
-      "size": 131,
-      "prettySize": "131 B",
-      "modifiedTime": "2018-09-21T17:51:35.912Z",
-      "accessTime": "2018-09-21T21:03:44.422Z",
-      "changeTime": "2018-09-21T17:51:35.912Z",
-      "birthTime": "2018-09-21T17:28:54.278Z",
-      "root": "/",
-      "dir": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/2018-09-21-post-two",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "2018-09-21-post-two",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 13885101,
-      "blocks": 8,
-      "atimeMs": 1537563824422.3472,
-      "mtimeMs": 1537552295911.529,
-      "ctimeMs": 1537552295911.529,
-      "birthtimeMs": 1537550934277.7793,
-      "atime": "2018-09-21T21:03:44.422Z",
-      "mtime": "2018-09-21T17:51:35.912Z",
-      "ctime": "2018-09-21T17:51:35.912Z",
-      "birthtime": "2018-09-21T17:28:54.278Z"
     },
     "54cb00dd-06ac-5948-9c4c-0e06f4496cdc": {
       "id": "54cb00dd-06ac-5948-9c4c-0e06f4496cdc",
@@ -1384,7 +1349,7 @@
       "size": 163,
       "prettySize": "163 B",
       "modifiedTime": "2018-09-21T17:51:32.167Z",
-      "accessTime": "2018-09-21T21:03:44.422Z",
+      "accessTime": "2018-09-22T17:19:30.300Z",
       "changeTime": "2018-09-21T17:51:32.167Z",
       "birthTime": "2018-09-21T17:25:19.984Z",
       "root": "/",
@@ -1402,35 +1367,61 @@
       "blksize": 4194304,
       "ino": 13884992,
       "blocks": 8,
-      "atimeMs": 1537563824422.3264,
+      "atimeMs": 1537636770299.5562,
       "mtimeMs": 1537552292166.737,
       "ctimeMs": 1537552292166.737,
       "birthtimeMs": 1537550719983.9578,
-      "atime": "2018-09-21T21:03:44.422Z",
+      "atime": "2018-09-22T17:19:30.300Z",
       "mtime": "2018-09-21T17:51:32.167Z",
       "ctime": "2018-09-21T17:51:32.167Z",
       "birthtime": "2018-09-21T17:25:19.984Z"
     },
-    "9548798c-f046-5c86-9db3-e0e70f1bddcb": {
-      "id": "9548798c-f046-5c86-9db3-e0e70f1bddcb",
-      "children": [],
-      "parent": "238cc71e-0b15-5a30-a2f0-000dd2ae89a9",
+    "238cc71e-0b15-5a30-a2f0-000dd2ae89a9": {
+      "id": "238cc71e-0b15-5a30-a2f0-000dd2ae89a9",
+      "children": [
+        "9548798c-f046-5c86-9db3-e0e70f1bddcb"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "content": "\nMarkdown, Plugins, and awesomeness\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "8707af2bf261aa35b86b3fff82b81017",
-        "owner": "gatsby-transformer-remark"
+        "contentDigest": "1c6763f6e3912302a51f537e557cffc7",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/2018-09-21-post-two/index.md\"",
+        "owner": "gatsby-source-filesystem"
       },
-      "frontmatter": {
-        "title": "Front Matter x 2",
-        "path": "/post-two",
-        "date": "2018-09-21",
-        "author": "Gangsta Ganst",
-        "_PARENT": "238cc71e-0b15-5a30-a2f0-000dd2ae89a9"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nMarkdown, Plugins, and awesomeness\n",
-      "fileAbsolutePath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/2018-09-21-post-two/index.md"
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/2018-09-21-post-two/index.md",
+      "relativePath": "2018-09-21-post-two/index.md",
+      "extension": "md",
+      "size": 131,
+      "prettySize": "131 B",
+      "modifiedTime": "2018-09-21T17:51:35.912Z",
+      "accessTime": "2018-09-22T17:19:30.299Z",
+      "changeTime": "2018-09-21T17:51:35.912Z",
+      "birthTime": "2018-09-21T17:28:54.278Z",
+      "root": "/",
+      "dir": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/2018-09-21-post-two",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2018-09-21-post-two",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 13885101,
+      "blocks": 8,
+      "atimeMs": 1537636770299.457,
+      "mtimeMs": 1537552295911.529,
+      "ctimeMs": 1537552295911.529,
+      "birthtimeMs": 1537550934277.7793,
+      "atime": "2018-09-22T17:19:30.299Z",
+      "mtime": "2018-09-21T17:51:35.912Z",
+      "ctime": "2018-09-21T17:51:35.912Z",
+      "birthtime": "2018-09-21T17:28:54.278Z"
     },
     "90d93f06-1e3d-5904-9b8d-64e08cbc268f": {
       "id": "90d93f06-1e3d-5904-9b8d-64e08cbc268f",
@@ -1453,25 +1444,26 @@
       "rawMarkdownBody": "\nFront matter blog post with Gatsby JS -markdown\n",
       "fileAbsolutePath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/2018-09-21-post-one/index.md"
     },
-    "SitePage /post-two": {
-      "jsonName": "post-two-2a5",
-      "internalComponentName": "ComponentPostTwo",
-      "path": "/post-two",
-      "component": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/templates/blog-template.js",
-      "componentChunkName": "component---src-templates-blog-template-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/templates/blog-template.js",
-      "id": "SitePage /post-two",
-      "parent": "SOURCE",
+    "9548798c-f046-5c86-9db3-e0e70f1bddcb": {
+      "id": "9548798c-f046-5c86-9db3-e0e70f1bddcb",
       "children": [],
+      "parent": "238cc71e-0b15-5a30-a2f0-000dd2ae89a9",
       "internal": {
-        "type": "SitePage",
-        "contentDigest": "e05e9d2bd49f3d74b2926519169738e7",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
+        "content": "\nMarkdown, Plugins, and awesomeness\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "8707af2bf261aa35b86b3fff82b81017",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Front Matter x 2",
+        "path": "/post-two",
+        "date": "2018-09-21",
+        "author": "Gangsta Ganst",
+        "_PARENT": "238cc71e-0b15-5a30-a2f0-000dd2ae89a9"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nMarkdown, Plugins, and awesomeness\n",
+      "fileAbsolutePath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/pages/2018-09-21-post-two/index.md"
     },
     "SitePage /post-one": {
       "jsonName": "post-one-18e",
@@ -1489,6 +1481,26 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "96c96e34202dcee89c08a10d663284cd",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /post-two": {
+      "jsonName": "post-two-2a5",
+      "internalComponentName": "ComponentPostTwo",
+      "path": "/post-two",
+      "component": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/templates/blog-template.js",
+      "componentChunkName": "component---src-templates-blog-template-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/colepedersen/Desktop/snowbasin/Code/Product/jp-docker/src/templates/blog-template.js",
+      "id": "SitePage /post-two",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e05e9d2bd49f3d74b2926519169738e7",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1616,18 +1628,18 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "a242c53e8e4ed08b453facaf0653a6fd"
+    "PLUGINS_HASH": "a94d20df858fe1e7ccc7d179c3694cd9"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "sq--src-components-layout-js"
       ],
-      "9548798c-f046-5c86-9db3-e0e70f1bddcb": [
-        "/post-two"
-      ],
       "90d93f06-1e3d-5904-9b8d-64e08cbc268f": [
         "/post-one"
+      ],
+      "9548798c-f046-5c86-9db3-e0e70f1bddcb": [
+        "/post-two"
       ]
     },
     "connections": {
@@ -1638,7 +1650,7 @@
   },
   "jsonDataPaths": {
     "sq--src-components-layout-js": 755544856,
-    "blog-f7a": "970/path---blog-f-7-a-05d-Y5fIYQkfGSYgosEJORIbXdEaYtY",
+    "blog-f7a": "891/path---blog-f-7-a-05d-ZGG1HDK0mG9vG09lwKjnKcvRmM",
     "post-two-2a5": "315/path---post-two-2-a-5-1bb-dAg8rc6TvR3cvQ132htqOK0o58",
     "post-one-18e": "265/path---post-one-18-e-4c6-6axHDBADMgYVKbVCakGLi2Y9XM",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
