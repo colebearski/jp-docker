@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
-import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 
 // COMPONENTS
@@ -14,6 +14,8 @@ import Hero from "./hero";
 // STYLES
 import "./style.css";
 import "./layout.css";
+import "./bootstrap/dist/css/bootstrap.css";
+// import "./bootstrap/dist/js/bootstrap.js";
 
 const Layout = ({ children }) => (
   <StaticQuery
