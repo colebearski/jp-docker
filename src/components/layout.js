@@ -4,6 +4,8 @@ import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
+import FontAwesome from "react-fontawesome";
+// import "./js/main.js";
 
 // COMPONENTS
 // import Header from "./header";
@@ -12,8 +14,8 @@ import Navi from "./navi";
 import Hero from "./hero";
 
 // STYLES
-import "./style.css";
-import "./layout.css";
+import "./styles/style.css";
+import "./styles/layout.css";
 // import "./bootstrap/dist/css/bootstrap.css";
 // import "./bootstrap/dist/js/bootstrap.js";
 
